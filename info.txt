@@ -1,0 +1,20 @@
+🕹️ Simon Says Game
+Overview
+This Simon Says Game is built using HTML, CSS, and JavaScript, offering an engaging memory challenge where players must follow a randomly generated sequence of colors.
+
+Key Features
+✔ Interactive Gameplay: Generates random sequences for the player to follow. ✔ Dynamic UI Updates: Uses animations to highlight selections for both the game and user interactions. ✔ Score Tracking: Displays the highest score achieved and updates after each round. ✔ Event Handling: Keyboard and button interactions trigger game actions.
+
+Technical Highlights
+Game Logic: Implements sequence checking with gameSqe[] and userSqe[].
+
+Smooth Animations: Adds visual feedback with CSS .gameFlash and .userFlash classes.
+
+Error Handling: Displays "Game Over" with score updates when a mistake occurs.
+
+Event-driven Actions: Uses keypress for game start and click events for user interactions.
+
+Future Improvements
+🔹 Add audio feedback to improve immersion when selecting colors 🔹 Enhance difficulty scaling with speed and sequence length adjustments 🔹 Introduce localStorage to save high scores across sessions
+
+🚀 Tech Stack: 🖥️ HTML | 🎨 CSS | ⚙️ JavaScript
